@@ -1,25 +1,17 @@
-# anixart.py
+<h1>
+  <img src="https://anixart-app.com/assets/images/logo.svg" width="28" style="vertical-align:middle;" />
+  anixart.py
+</h1>
 
-> Unofficial Python wrapper for the [Anixart](https://anixart.tv) mobile API — explore a wide variety of Japanese animation works programmatically.
-
-<p align="center">
-  <img src="https://anixart-app.com/assets/images/logo.svg" alt="Anixart Logo" width="200"/>
-</p>
-
----
-
-## Installation
-
-> No package yet — just drop `anixart.py` into your project.
-
+> Mobile-API for the [Anixart](https://anixart.tv) application to explore a wide variety of Japanese animation works
 ---
 
 ## Quick Start
 
 ```python
-import anixart
+from anixart import Anixart
 
-client = anixart.Anixart()
+client = Anixart()
 client.login(login="example@gmail.com", password="password")
 ```
 
@@ -27,15 +19,15 @@ client.login(login="example@gmail.com", password="password")
 
 ## Features
 
-- 🔐 **Auth** — login, register, email/password/login changes
-- 👤 **Profiles** — user info, comments, watch lists, social links
-- 🎌 **Releases** — search, info, voting, favorites, schedule
-- 💬 **Comments** — post, edit, report, like on releases and collections
-- 👥 **Friends** — requests, recommendations, block list
-- 🔔 **Notifications** — counts and alerts
-- 🔍 **Search** — releases and profiles
-- 📚 **Collections** — browse curated lists
-- 🌐 **Discover** — trending discussions, interesting content
+- **Auth** — login, register, email/password/login changes
+- **Profiles** — user info, comments, watch lists, social links
+- **Releases** — search, info, voting, favorites, schedule
+- **Comments** — post, edit, report, like on releases and collections
+- **Friends** — requests, recommendations, block list
+- **Notifications** — counts and alerts
+- **Search** — releases and profiles
+- **Collections** — browse curated lists
+- **Discover** — trending discussions, interesting content
 
 ---
 
